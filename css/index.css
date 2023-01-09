@@ -24,7 +24,19 @@ header{
     overflow: hidden;
 }
 img{
-    width: 50%;
+    width: 90px;
+}
+#main{
+    text-align: center;
+    min-height: 400px;
+    padding:  0px 0px;
+}
+h1{}
+#true{
+    margin-top: 100px;
+    margin-bottom: 15px;
+ font-size: 25px;
+ text-transform: capitalize;
 }
 #box{
     padding: 20px 0px 20px 0px;
@@ -100,3 +112,17 @@ footer{
 #color{
     color: #e8491d;
 }
+#main-col{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    width: 25%;
+    }
+    .dark{
+        border:red solid 2px;
+    padding: 10px 5px;
+    background-color: #35424a;
+
+    }
