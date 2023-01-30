@@ -31,7 +31,7 @@ img{
     min-height: 400px;
     padding:  0px 0px;
 }
-h1{}
+
 #true{
     margin-top: 100px;
     margin-bottom: 15px;
@@ -53,8 +53,8 @@ h1{}
     margin: o;
     color: white;
 }
-form{
-    float: right;
+#form{
+    float:right ;
 }
 input {
     padding: 4px;
@@ -115,14 +115,54 @@ footer{
 #main-col{
     float: left;
     width: 70%;
+    margin-bottom: 5px;
 }
 #sidebar{
     float: right;
     width: 25%;
     }
-    .dark{
-        border:red solid 2px;
+.dark{
+    border:red solid 2px;
     padding: 10px 5px;
     background-color: #35424a;
+    height:auto;
 
     }
+#services{
+    list-style:none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+     background-color: #e6e6e6;
+}
+#services li{
+    margin-bottom: 10px;
+}
+.quote input, .quote textarea{
+ width: 90%;
+ padding: 3px;
+}
+@media(max-width:768px){
+header #heading, header nav, header nav li,#showcase #talk,#showcase #form,#sidebar,#main-col,aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+header{
+    padding-bottom: 20px;
+}
+#main #true{
+    margin-top: 40px;
+}
+#showcase input{
+    width: 100%;
+    margin-bottom:5px;
+}
+#showcase button{
+    display: block;
+    width: 100%;
+}
+#box .boxes{
+    width: 100%;
+}
+}
